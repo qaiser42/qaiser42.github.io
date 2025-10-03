@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: //STOPSHIP
+title: Qaiser42
 email: q.abbasi1010 at gmail dot com
 description: Qaiser's Tech Blog
 url: # the base hostname & protocol for your site
@@ -38,7 +38,7 @@ owner:
   name: Qaiser
   avatar: avatar.png
   job: Programmer by
-  bio: Enterprise developer by day... functional programming avant-gardist by night.
+  bio: Focus: Go, DevOps, Cloud
   email: q.abbasi1010 at gmail dot com
   disqus-shortname: http-qabbasi-github-io
   twitter: #username
@@ -50,7 +50,7 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: bbq2100
+  github: qaiser42
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username

@@ -4,7 +4,7 @@
 ####################################
 #
 title: Qaiser42
-email: q.abbasi1010 at gmail dot com
+email: hi at qaiser42.io
 description: Qaiser's Tech Blog
 url: # the base hostname & protocol for your site
 
@@ -38,8 +38,8 @@ owner:
   name: Qaiser
   avatar: avatar.png
   job: Programmer by
-  bio: Freelancing {Go, DevOps, Cloud}
-  email: q.abbasi1010 at gmail dot com
+  bio: Freelancing{Go, DevOps, Cloud}
+  email: hi at qaiser42.io
   disqus-shortname: http-qabbasi-github-io
   twitter: #username
   facebook: #username

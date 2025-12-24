@@ -1,0 +1,92 @@
+---
+title: "Experience (excerpt)"
+type: "homepage"
+intro: >-
+  From structural engineering to AI development, building practical tools that bridge traditional engineering with modern technology.
+
+resume_url_en: "/files/Felipe_Cordero_CV_English_version.pdf"
+resume_url_fr: "/files/Felipe_Cordero_CV_French_version.pdf"
+resume_label: "Download Resume"
+
+positions:
+- company: "Schwarz Group Production: CloudOps"
+  role: "Freelance Lead DevOps Engineer"
+  period: "12/2024 - Present"
+  industry: "Cloud Infrastructure / IDP"
+  location: "Remote"
+  company_context: "The IDP in the Schwarz Group universe (used by up to 50 teams) abstracts complex IaC workflows, allowing non-technical users to deploy predefined Terraform templates via a 1-click app interface."
+  company_stack: "Golang, Helm, Renovate, env zero, OpenTofu, Forgejo, Taskfile, Kubernetes, bruno, OpenAPI, Terraform-Docs, golangci-lint, Google Cloud (GCP), STACKIT, APIgee, Vault, Terratest, Ansible"
+  company_description: "Bootstrapping a CloudOps team and building a multi-cloud backend for an Internal Developer Platform (IDP) used by 50+ teams."
+  bullet_points:
+    - "Designed solution architecture and led technical implementation of core APIs using Golang and OpenTofu"
+    - "Implemented multi-cloud provider backend using env zero to abstract complex IaC workflows for non-technical users"
+    - "Established team engineering standards: User Story Mapping, ADRs, Milestones, and Golangci-lint"
+    - "Coached cross-functional teams on DevOps practices, Terraform, and Go software design"
+
+- company: "HUK-Coburg: Digital Services Platform"
+  role: "Freelance DevOps Engineer"
+  period: "01/2024 - 12/2024"
+  industry: "Insurance / Fintech"
+  location: "Remote"
+  company_context: "Following the departure of the sole Go expert, I assumed technical responsibility for Go-based developments and strengthened the team's AWS and Terraform capabilities."
+  company_stack: "Golang, Java (Quarkus), Typescript, OpenShift, AWS Lambda, AWS VPC, Route53, Apache Kafka, Docker, Ansible, Terraform Enterprise, Jenkins, AsciiDoc, Azure DevOps, IBM API Connect, k6, PlantUML, Helm, Renovate, Splunk"
+  company_description: "Migration and optimization of core services within a complex hybrid cloud environment."
+  bullet_points:
+    - "Developed a high-performance Kafka HTTP Proxy in Golang to replace CVE-burdened Confluent versions"
+    - "Created custom AWS API Gateway Authorizers as Terraform modules using high-performance Go Lambda functions"
+    - "Designed and implemented data services for service catalog integration via Backstage.io"
+    - "Architected technical blueprints for secure large-BLOB transfers between AWS VPC and on-premises networks"
+
+- company: "AboutYou: SCAYLE Storefront"
+  role: "Freelance DevOps Engineer"
+  period: "11/2022 - 11/2023"
+  industry: "E-commerce"
+  location: "Remote"
+  company_context: "Initiated the replacement of a barely maintainable legacy PHP interface with a high-performance Go implementation to ensure stability and scalability during extreme peak loads like Black Friday."
+  company_stack: "Golang, Typescript, AWS, ECS, GitLab, Elasticsearch, Kubernetes, gRPC, Redis, Mysql, DataDog, OpenAPI, Renovate, LocalStack, Terraform"
+  company_description: "Development of a high-performance service facade to encapsulate central business logic for the SCAYLE e-commerce platform."
+  bullet_points:
+    - "Led the migration of legacy PHP interfaces to a high-performance Go implementation, ensuring stability during Black Friday peaks"
+    - "Contributed to the open-source TypeScript SDK for the Storefront API"
+    - "Optimized API scalability and performance using Kubernetes, gRPC, Redis, and Elasticsearch"
+    - "Provided technical mentorship and coaching to junior developers focused on Golang"
+
+- company: "RTL+ App"
+  role: "Freelance DevOps Engineer"
+  period: "04/2022 - 12/2022"
+  industry: "Media & Streaming"
+  location: "Remote"
+  company_context: "Supported the development of the new RTL+ app by leveraging deep expertise in Elasticsearch and search technologies gained from previous high-scale environments."
+  company_stack: "Google Cloud (GCP), Google Kubernetes Engine (GKE), Python, FastAPI, Pydantic, Pub/Sub, Terraform, ArgoCD, Kubernetes, Elasticsearch, Gitlab, Grafana, Prometheus, k6"
+  company_description: "Implementation of central search and data services for the new RTL+ streaming application."
+  bullet_points:
+    - "Designed microservice architecture using Python and FastAPI deployed on Google Kubernetes Engine (GKE)"
+    - "Consulted on critical buy-vs-build decisions for Elasticsearch cloud infrastructure"
+    - "Established monitoring and observability patterns using Grafana, Prometheus, and k6"
+
+- company: "Delivery Hero: Partners API"
+  role: "Freelance DevOps Engineer"
+  period: "11/2021 - 04/2022"
+  industry: "Logistics / Food Delivery"
+  location: "Remote"
+  company_context: "Optimized and hardened an MVP built by a former architect as an interim solution until a permanent internal Go team was established."
+  company_stack: "Google Cloud (GCP), Golang, Google Kubernetes Engine (GKE), Terraform, Spinnaker, Kubernetes, Ginkgo, DataDog"
+  company_description: "Hardening and optimization of an MVP backend for order processing and catalog management."
+  bullet_points:
+    - "Implemented critical use cases for order processing and central product database management in Go"
+    - "Enhanced CI/CD workflows and expanded the test suite using Ginkgo for increased reliability"
+    - "Managed infrastructure scaling on GCP using Terraform and Spinnaker"
+
+- company: "SoundCloud: Search"
+  role: "Permanent DevOps Engineer"
+  period: "04/2018 - 04/2020"
+  industry: "Music Streaming"
+  location: "Berlin"
+  company_context: "Integrated user behavior (clicks) into a machine learning model (Learning-To-Rank) to deliver more precise search results for millions of users."
+  company_stack: "Elasticsearch, Docker, Make, Apache Kafka, Kubernetes, Prometheus, Chef, Golang, Scala, Java, Ruby, Grafana, Python, Bash, Terraform, Atlantis, Airflow, PagerDuty"
+  company_description: "Operation and scaling of large-scale search systems and Elasticsearch clusters (100+ nodes). See https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud."
+  bullet_points:
+    - "Improved p95 search latency fourfold and reduced reindex duration from 6 hours to 1 hour for 1B+ documents"
+    - "Implemented Learning-To-Rank models to integrate user behavior into search relevance"
+    - "Managed high-availability infrastructure supporting 2,000 queries per second"
+---

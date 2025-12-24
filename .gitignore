@@ -1,0 +1,24 @@
+public/
+node_modules/
+package-lock.json
+yarn-error.log
+yarn.lock
+.DS_Store
+*.log
+*.env
+*.env.local
+*.env.development
+resources/
+
+# Hugo-generated stats for Tailwind
+hugo_stats.json
+
+.vscode/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.hugo_build.lock
+.env.*
+config.local.toml
+.vercel

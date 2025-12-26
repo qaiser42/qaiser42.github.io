@@ -84,9 +84,9 @@ positions:
   location: "Berlin"
   company_context: "Integrated user behavior (clicks) into a machine learning model (Learning-To-Rank) to deliver more precise search results for millions of users."
   company_stack: "Elasticsearch, Docker, Make, Apache Kafka, Kubernetes, Prometheus, Chef, Golang, Scala, Java, Ruby, Grafana, Python, Bash, Terraform, Atlantis, Airflow, PagerDuty"
-  company_description: "Operation and scaling of large-scale search systems and Elasticsearch clusters (100+ nodes). See https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud."
+  company_description: "Operation and scaling of large-scale search systems and Elasticsearch clusters (100+ nodes)."
   bullet_points:
-    - "Improved p95 search latency fourfold and reduced reindex duration from 6 hours to 1 hour for 1B+ documents"
+    - "Improved p95 search latency fourfold and reduced reindex duration from 6 hours to 1 hour for 1B+ documents (https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud)."
     - "Implemented Learning-To-Rank models to integrate user behavior into search relevance"
     - "Managed high-availability infrastructure supporting 2,000 queries per second"
 ---

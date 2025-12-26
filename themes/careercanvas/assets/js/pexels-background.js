@@ -3,7 +3,7 @@
 
 class PexelsBackground {
     constructor() {
-        this.apiKey = null;
+        this.apiKey = 'tFe25GavGioW3x2708ylmpu4g9nk2cBSLoJpXt5I9g13JMSkcKNoQVf1';
         this.queries = this.getQueries();
         this.currentImage = null;
         this.usedImages = new Set(); // Track used images to avoid repeats
@@ -12,8 +12,7 @@ class PexelsBackground {
         // Hide gradient immediately to prevent flash
         this.hideGradientBackground();
         
-        // Wait for configuration to be loaded, then initialize
-        this.waitForConfig();
+        this.init()
     }
 
     waitForConfig() {

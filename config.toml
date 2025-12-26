@@ -28,11 +28,11 @@ defaultContentLanguageInSubdir = false
         "R&D & Innovation",
         "Technical Leadership"
       ]
-  [languages.es]
-    contentDir = "content/es"
+  [languages.de]
+    contentDir = "content/de"
     languageName = "Deutsch"
     weight = 2
-    [languages.es.params]
+    [languages.de.params]
       tagline = "Lead Cloud Engineer. Team Player. Problem Solver."
       hero_description = "Über 12 Jahre Erfahrung in der Umsetzung messbarer Ergebnisse für Marken wie SoundCloud, AboutYou, Delivery Hero, SAP und RTL. Ich unterstütze Teams dabei, zuverlässige cloud-native Systeme zu entwickeln und zu skalieren, DevOps-Prozesse pragmatisch zu verschlanken und komplexe Backend- sowie Infrastruktur-Herausforderungen mit Golang und Terraform sauber zu lösen 🧙🔮🪄✨"
       hero_location = "Berlin, Germany"
@@ -180,9 +180,6 @@ sectionPagesMenu = 'main'
     second_color = "#8B5CF6"  # Purple – innovation and technology
     third_color = "#06B6D4"   # Cyan – precision and clarity
   
-
-
-
 
 # Pexels Background Configuration
 # This section configures the random background images for the hero section

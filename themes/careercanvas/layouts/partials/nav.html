@@ -37,7 +37,7 @@
         {{ $cur := $.Site.Language.Lang }}
         {{ $currentFlag := "🏳️" }}
         {{ if eq $cur "en" }}{{ $currentFlag = "🇬🇧" }}{{ end }}
-        {{ if eq $cur "es" }}{{ $currentFlag = "🇩🇪" }}{{ end }}
+        {{ if eq $cur "de" }}{{ $currentFlag = "🇩🇪" }}{{ end }}
         {{ if eq $cur "fr" }}{{ $currentFlag = "🇫🇷" }}{{ end }}
         <div class="relative group">
           <a href="#" class="nav-link text-text-primary dark:text-text-primary flex items-center" aria-label="Language switcher">
@@ -45,7 +45,7 @@
             <i class="fas fa-chevron-down ml-1 text-sm"></i>
           </a>
           <div class="submenu absolute right-0 top-full mt-2 bg-bg dark:bg-bg shadow-lg rounded-lg z-50 min-w-[8rem] opacity-0 invisible">
-            {{ $order := slice "fr" "en" "es" }}
+            {{ $order := slice "fr" "en" "de" }}
             {{ range $order }}
               {{ $code := . }}
               {{ range where $homes "Language.Lang" $code }}
@@ -53,7 +53,7 @@
                 {{ $flag := "🏳️" }}
                 {{ if eq $lang "fr" }}{{ $flag = "🇫🇷" }}{{ end }}
                 {{ if eq $lang "en" }}{{ $flag = "🇬🇧" }}{{ end }}
-                {{ if eq $lang "es" }}{{ $flag = "🇩🇪" }}{{ end }}
+                {{ if eq $lang "de" }}{{ $flag = "🇩🇪" }}{{ end }}
                 {{/* Check if current page has a translation in this language */}}
                 {{ $targetURL := .RelPermalink }}
                 {{ $hasTranslation := false }}
@@ -133,7 +133,7 @@
       {{ if gt (len $homes) 1 }}
       <div class="px-3 py-2 border-t border-border-primary dark:border-border-primary">
         <div class="flex items-center space-x-3">
-          {{ $order := slice "fr" "en" "es" }}
+          {{ $order := slice "fr" "en" "de" }}
           {{ range $order }}
             {{ $code := . }}
             {{ range where $homes "Language.Lang" $code }}
@@ -141,7 +141,7 @@
               {{ $flag := "🏳️" }}
               {{ if eq $lang "fr" }}{{ $flag = "🇫🇷" }}{{ end }}
               {{ if eq $lang "en" }}{{ $flag = "🇬🇧" }}{{ end }}
-              {{ if eq $lang "es" }}{{ $flag = "🇩🇪" }}{{ end }}
+              {{ if eq $lang "de" }}{{ $flag = "🇩🇪" }}{{ end }}
               
               {{/* Check if current page has a translation in this language */}}
               {{ $targetURL := .RelPermalink }}

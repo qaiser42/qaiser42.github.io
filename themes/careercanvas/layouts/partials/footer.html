@@ -30,9 +30,49 @@
     </div>
 
     <div class="mt-8 pt-8 border-t border-border-primary text-center text-text-secondary dark:text-text-muted text-sm">
-      <p>© {{ now.Format "2006" }} | Qaiser Abbasi</p>
+      <p>© {{ now.Format "2006" }} | Qaiser Abbasi | <button onclick="document.getElementById('imprint-modal').showModal()" class="hover:text-primary transition-colors duration-200">Imprint (click me)</button></p>
     </div>
   </div>
+
+  <dialog id="imprint-modal" class="backdrop:bg-black/50 bg-bg-secondary text-text-primary p-0 rounded-xl shadow-2xl border border-border-primary w-full max-w-2xl overflow-hidden">
+    <div class="flex flex-col h-full">
+      <div class="flex justify-between items-center p-6 border-b border-border-primary">
+        <h2 class="text-2xl font-bold font-heading">Imprint</h2>
+        <button onclick="document.getElementById('imprint-modal').close()" class="text-text-secondary hover:text-text-primary">
+          <i class="fas fa-times text-xl"></i>
+        </button>
+      </div>
+      <div class="p-8 overflow-y-auto max-h-[70vh] space-y-6 text-left">
+        <section>
+          <h3 class="font-bold text-lg mb-2">Information pursuant to § 5 German Telemedia Act (TMG)</h3>
+          <p>Qaiser Abbasi<br>
+            c/o Postflex #8554<br>
+            Emsdettener Str. 10<br>
+            48268 Greven<br>
+            Legal Form: Sole Proprietorship</p>
+        </section>
+
+        <section>
+          <h3 class="font-bold text-lg mb-2">Contact</h3>
+          <p>E-mail: <a href="mailto:hi@qaiser42.io" class="text-primary hover:underline">hi@qaiser42.io</a></p>
+        </section>
+
+        <section>
+          <h3 class="font-bold text-lg mb-2">VAT ID</h3>
+          <p>Sales tax identification number according to § 27a of the Sales Tax Law: DE480614265</p>
+        </section>
+
+        <section>
+          <h3 class="font-bold text-lg mb-2">Dispute resolution proceedings in front of a consumer arbitration board</h3>
+          <p>I am not willing or obliged to participate in dispute resolution proceedings in front of a consumer arbitration board.</p>
+        </section>
+      </div>
+      <div class="p-4 bg-bg-tertiary text-right border-t border-border-primary">
+        <button onclick="document.getElementById('imprint-modal').close()" class="px-6 py-2 bg-primary text-white rounded-lg font-semibold hover:opacity-90 transition-opacity">Close</button>
+      </div>
+    </div>
+  </dialog>
+
 </footer>
 
 

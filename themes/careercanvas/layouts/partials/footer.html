@@ -30,7 +30,7 @@
     </div>
 
     <div class="mt-8 pt-8 border-t border-border-primary text-center text-text-secondary dark:text-text-muted text-sm">
-      <p>© {{ now.Format "2006" }} | Qaiser Abbasi | <button onclick="document.getElementById('imprint-modal').showModal()" class="hover:text-primary transition-colors duration-200">Imprint (click me)</button></p>
+      <p>© {{ now.Format "2006" }} | Qaiser Abbasi | <a href="#" onclick="event.preventDefault(); document.getElementById('imprint-modal').showModal()" class="text-primary hover:underline transition-colors duration-200">Imprint</a></p>
     </div>
   </div>
 

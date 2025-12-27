@@ -132,6 +132,8 @@ technical_groups:
         name: "AWS Cloudwatch"
         devicon_name: "amazonwebservices"
         devicon_name_path: "amazonwebservices-original-wordmark"
+      - icon: "database"
+        name: "Nagios"
   - title: "Messaging & Databases"
     icon: "database"
     color_scheme: "green"

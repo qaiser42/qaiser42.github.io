@@ -81,7 +81,8 @@ positions:
     company_stack: "Elasticsearch, Docker, Make, Apache Kafka, Kubernetes, Prometheus, Chef, Golang, Scala, Java, Ruby, Grafana, Python, Bash, Terraform, Atlantis, Airflow, PagerDuty"
     company_description: "Betrieb und Skalierung großer Suchsysteme und Elasticsearch-Cluster (100+ Knoten)."
     bullet_points:
-      - "Vierfache Verbesserung der p95-Suchlatenz und Reduzierung der Reindexierungsdauer von 6 Stunden auf 1 Stunde für über 1 Mrd. Dokumente (https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud)."
+      - "Vierfache Verbesserung der p95-Suchlatenz und Reduzierung der Reindexierungsdauer von 6 Stunden auf 1 Stunde für über 1 Mrd. Dokumente."
+      - "Siehe https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud"
       - "Implementierung von Learning-To-Rank-Modellen zur Integration von Nutzerverhalten in die Suchrelevanz"
       - "Betrieb einer Hochverfügbarkeits-Infrastruktur für 2.000 Suchanfragen pro Sekunde"
 ---

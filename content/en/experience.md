@@ -88,6 +88,6 @@ positions:
   bullet_points:
     - "Improved p95 search latency fourfold and reduced reindex duration from 6 hours to 1 hour for 1B+ documents."
     - "See https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud"
-    - "Implemented Learning-To-Rank models to integrate user behavior into search relevance"
+    - "Creation of A/B test proposals and RFCs (e.g.“Exact Match Searches”)"
     - "Managed high-availability infrastructure supporting 2,000 queries per second"
 ---

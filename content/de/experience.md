@@ -83,6 +83,6 @@ positions:
     bullet_points:
       - "Vierfache Verbesserung der p95-Suchlatenz und Reduzierung der Reindexierungsdauer von 6 Stunden auf 1 Stunde für über 1 Mrd. Dokumente."
       - "Siehe https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud"
-      - "Implementierung von Learning-To-Rank-Modellen zur Integration von Nutzerverhalten in die Suchrelevanz"
+      - "Konzeption von A/B-Tests und RFCs (z. B. Exact-Match-Suche)"
       - "Betrieb einer Hochverfügbarkeits-Infrastruktur für 2.000 Suchanfragen pro Sekunde"
 ---

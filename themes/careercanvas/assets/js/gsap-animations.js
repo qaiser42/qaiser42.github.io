@@ -138,7 +138,7 @@ function initializeHeroAnimations() {
     
     // Only animate elements that exist
     if (animatedElements.length > 0) {
-        gsap.set(animatedElements, { opacity: 0, y: 50, rotationX: -15 });
+        //gsap.set(animatedElements, { opacity: 0, y: 50, rotationX: -15 });
     }
     if (bgDecorations.length > 0) {
         gsap.set(bgDecorations, { opacity: 0, scale: 0.5, rotation: -180 });

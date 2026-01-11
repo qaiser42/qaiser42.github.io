@@ -37,7 +37,7 @@ positions:
     - "Coached cross-functional teams on DevOps practices, Terraform, and Go software design"
 
 - company: "HUK-Coburg: Digital Services Platform"
-  role: "Freelance DevOps Engineer"
+  role: "Freelance Golang Expert"
   period: "01/2024 - 12/2024"
   industry: "Insurance / Fintech"
   location: "Remote"

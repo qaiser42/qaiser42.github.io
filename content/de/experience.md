@@ -36,7 +36,7 @@ positions:
       - "Etablierung technischer Teamstandards: User Story Mapping, ADRs, Meilensteine und Golangci-lint"
       - "Coaching cross-funktionaler Teams in DevOps-Praktiken, Terraform und Go-Software-Design"
   - company: "HUK-Coburg: Digital Services Platform"
-    role: "Freelance DevOps Engineer"
+    role: "Freelance Golang Expert"
     period: "01/2024 - 12/2024"
     industry: "Versicherung / Fintech"
     location: "Remote"

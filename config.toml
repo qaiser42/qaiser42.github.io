@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
     weight = 1
     [languages.en.params]
       tagline = "Cloud Solutions Architect. Team Player. Problem Solver."
-      hero_description = "12+ years delivering high-impact results for brands like SoundCloud, AboutYou, Delivery Hero, SAP, and RTL. I help teams build and scale reliable cloud-native systems, streamline DevOps processes, and solve complex backend and infrastructure challenges in Golang and Terraform 🧙🔮🪄✨"
+      hero_description = "15 years delivering high-impact results for brands like SoundCloud, AboutYou, Delivery Hero, SAP, and RTL. I help teams build and scale reliable cloud-native systems, streamline DevOps processes, and solve complex backend and infrastructure challenges in Golang and Terraform 🧙🔮🪄✨"
       hero_location = "Berlin, Germany"
       collab_tags = [
         "Cloud/DevOps",
@@ -34,7 +34,7 @@ defaultContentLanguageInSubdir = false
     weight = 2
     [languages.de.params]
       tagline = "Cloud Solutions Architect. Team Player. Problem Solver."
-      hero_description = "Über 12 Jahre Erfahrung in der Umsetzung messbarer Ergebnisse für Marken wie SoundCloud, AboutYou, Delivery Hero, SAP und RTL. Ich unterstütze Teams dabei, zuverlässige cloud-native Systeme zu entwickeln und zu skalieren, DevOps-Prozesse pragmatisch zu verschlanken und komplexe Backend- sowie Infrastruktur-Herausforderungen mit Golang und Terraform sauber zu lösen 🧙🔮🪄✨"
+      hero_description = "Über 15 Jahre Erfahrung in der Umsetzung messbarer Ergebnisse für Marken wie SoundCloud, AboutYou, Delivery Hero, SAP und RTL. Ich unterstütze Teams dabei, zuverlässige cloud-native Systeme zu entwickeln und zu skalieren, DevOps-Prozesse pragmatisch zu verschlanken und komplexe Backend- sowie Infrastruktur-Herausforderungen mit Golang und Terraform sauber zu lösen 🧙🔮🪄✨"
       hero_location = "Berlin, Germany"
       collab_tags = [
         "Cloud/DevOps",
@@ -54,7 +54,7 @@ author = "Qaiser Abbasi"
 
 og_image = "images/qaiser-abbasi-profile.jpeg"
 
-description = "Cloud Solutions Architect. Team Player. Problem Solver. 12+ years delivering high-impact results for brands like SoundCloud, AboutYou, Delivery Hero, SAP, and RTL. I help teams build and scale reliable cloud-native systems, streamline DevOps processes, and solve complex backend and infrastructure challenges in Golang and Terraform 🧙🔮🪄✨"
+description = "Cloud Solutions Architect. Team Player. Problem Solver. 15 years delivering high-impact results for brands like SoundCloud, AboutYou, Delivery Hero, SAP, and RTL. I help teams build and scale reliable cloud-native systems, streamline DevOps processes, and solve complex backend and infrastructure challenges in Golang and Terraform 🧙🔮🪄✨"
 
 linkedin_url = "https://www.linkedin.com/in/qaiser-abbasi"
 linkedin_text = "linkedin.com/in/qaiser-abbasi"

@@ -30,51 +30,6 @@
           {{ end }}
           {{ end }}
         {{ end }}
-        <!-- Language Switcher (Dropdown) -->
-        {{ $homes := $.Site.Home.AllTranslations }}
-        {{ if gt (len $homes) 1 }}
-        {{/* Determine current language flag */}}
-        {{ $cur := $.Site.Language.Lang }}
-        {{ $currentFlag := "🏳️" }}
-        {{ if eq $cur "en" }}{{ $currentFlag = "🇬🇧" }}{{ end }}
-        {{ if eq $cur "de" }}{{ $currentFlag = "🇩🇪" }}{{ end }}
-        {{ if eq $cur "fr" }}{{ $currentFlag = "🇫🇷" }}{{ end }}
-        <div class="relative group">
-          <a href="#" class="nav-link text-text-primary dark:text-text-primary flex items-center" aria-label="Language switcher">
-            <span class="text-lg mr-1">{{ $currentFlag }}</span>
-            <i class="fas fa-chevron-down ml-1 text-sm"></i>
-          </a>
-          <div class="submenu absolute right-0 top-full mt-2 bg-bg dark:bg-bg shadow-lg rounded-lg z-50 min-w-[8rem] opacity-0 invisible">
-            {{ $order := slice "fr" "en" "de" }}
-            {{ range $order }}
-              {{ $code := . }}
-              {{ range where $homes "Language.Lang" $code }}
-                {{ $lang := .Language.Lang }}
-                {{ $flag := "🏳️" }}
-                {{ if eq $lang "fr" }}{{ $flag = "🇫🇷" }}{{ end }}
-                {{ if eq $lang "en" }}{{ $flag = "🇬🇧" }}{{ end }}
-                {{ if eq $lang "de" }}{{ $flag = "🇩🇪" }}{{ end }}
-                {{/* Check if current page has a translation in this language */}}
-                {{ $targetURL := .RelPermalink }}
-                {{ $hasTranslation := false }}
-                {{ if $.Page.IsTranslated }}
-                  {{ range $.Page.Translations }}
-                    {{ if eq .Language.Lang $lang }}
-                      {{ $targetURL = .RelPermalink }}
-                      {{ $hasTranslation = true }}
-                    {{ end }}
-                  {{ end }}
-                {{ end }}
-
-                <a href="{{ $targetURL }}" class="nav-link block px-4 py-2 text-sm text-text-primary dark:text-text-primary {{ if eq .Language.Lang $.Site.Language.Lang }}font-semibold{{ end }}">
-                  <span class="mr-2">{{ $flag }}</span>{{ .Language.LanguageName }}
-                </a>
-              {{ end }}
-            {{ end }}
-          </div>
-        </div>
-        {{ end }}
-
         <!-- Social Media Icons -->
         <div class="flex items-center space-x-4" data-animation="social">
           {{ if .Site.Params.linkedin_url }}
@@ -128,42 +83,6 @@
           {{ end }}
         {{ end }}
       {{ end }}
-      <!-- Mobile Language Switcher (Inline flags) -->
-      {{ $homes := $.Site.Home.AllTranslations }}
-      {{ if gt (len $homes) 1 }}
-      <div class="px-3 py-2 border-t border-border-primary dark:border-border-primary">
-        <div class="flex items-center space-x-3">
-          {{ $order := slice "fr" "en" "de" }}
-          {{ range $order }}
-            {{ $code := . }}
-            {{ range where $homes "Language.Lang" $code }}
-              {{ $lang := .Language.Lang }}
-              {{ $flag := "🏳️" }}
-              {{ if eq $lang "fr" }}{{ $flag = "🇫🇷" }}{{ end }}
-              {{ if eq $lang "en" }}{{ $flag = "🇬🇧" }}{{ end }}
-              {{ if eq $lang "de" }}{{ $flag = "🇩🇪" }}{{ end }}
-              
-              {{/* Check if current page has a translation in this language */}}
-              {{ $targetURL := .RelPermalink }}
-              {{ $hasTranslation := false }}
-              {{ if $.Page.IsTranslated }}
-                {{ range $.Page.Translations }}
-                  {{ if eq .Language.Lang $lang }}
-                    {{ $targetURL = .RelPermalink }}
-                    {{ $hasTranslation = true }}
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-              
-              <a href="{{ $targetURL }}" class="px-2 py-1 text-xl {{ if eq .Language.Lang $.Site.Language.Lang }}opacity-100 font-semibold{{ else }}opacity-70 hover:opacity-100{{ end }}" aria-label="Switch to {{ .Language.LanguageName }}{{ if $hasTranslation }} (has translation){{ else }} (go to home){{ end }}">
-                <span aria-hidden="true">{{ $flag }}</span>
-              </a>
-            {{ end }}
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
-
       <!-- Mobile Social Media Icons -->
       <div class="flex items-center space-x-6 px-3 py-3 border-t border-border-primary dark:border-border-primary mt-2" data-animation="social">
         <a href="{{ .Site.Params.linkedin_url }}" target="_blank" rel="noopener noreferrer" class="text-text-primary dark:text-text-primary transition-transform duration-300 hover:scale-125">
